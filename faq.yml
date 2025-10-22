@@ -1,0 +1,81 @@
+# FAQ inicial - no contiene saldos ni PII.
+faqs:
+  - id: 001
+    category: "Productos"
+    question: "¿Qué tipos de tarjetas ofrece la app?"
+    answer: "Ofrecemos tarjetas de crédito con diferentes beneficios según perfil: básica, recompensas y premium. Cada una tiene requisitos y beneficios distintos. ¿Quieres que te explique las diferencias?"
+    tags: ["tarjeta","productos"]
+
+  - id: 002
+    category: "Solicitar tarjeta"
+    question: "¿Cómo solicito una tarjeta de crédito?"
+    answer: "Puedes solicitarla desde la sección 'Solicitar tarjeta' en la app. Te pediremos datos personales básicos y documentación para evaluación. El proceso inicial es 100% en línea."
+    tags: ["tarjeta","solicitud"]
+
+  - id: 003
+    category: "Requisitos"
+    question: "¿Cuáles son los requisitos para solicitar crédito?"
+    answer: "Los requisitos típicos incluyen ser mayor de edad, contar con identificación oficial vigente, comprobante de domicilio y comprobante de ingresos. Los requisitos pueden variar según el producto."
+    tags: ["requisitos","credito"]
+
+  - id: 004
+    category: "Tasas y comisiones"
+    question: "¿Cuál es la tasa de interés de la tarjeta?"
+    answer: "Las tasas y comisiones dependen del producto y del perfil de riesgo. Puedes consultar las tasas y el CAT en los Términos y Condiciones dentro de la app o solicitar que te enviemos la ficha informativa."
+    tags: ["tasas","comisiones"]
+
+  - id: 005
+    category: "Control de gastos"
+    question: "¿Cómo funciona el control de gastos?"
+    answer: "La función de control de gastos categoriza tus transacciones (alimentación, transporte, etc.), te permite fijar presupuestos y recibir alertas cuando estás cerca de un límite. No muestra saldos ni información sensible sin autenticación."
+    tags: ["gastos","presupuesto"]
+
+  - id: 006
+    category: "Solicitar crédito"
+    question: "¿Puedo solicitar un crédito desde la app?"
+    answer: "Sí, la app tiene opciones para solicitar créditos personales o revolventes. Completa la solicitud en la sección correspondiente y el equipo realizará la evaluación. Te notificaremos el estatus por la app y correo."
+    tags: ["credito","solicitud"]
+
+  - id: 007
+    category: "Documentos"
+    question: "¿Qué documentos necesito para la solicitud?"
+    answer: "Normalmente, identificación oficial, comprobante de domicilio y comprobante de ingresos. En algunos casos se pedirá documentación adicional según políticas de KYC."
+    tags: ["documentos","KYC"]
+
+  - id: 008
+    category: "Tiempo de respuesta"
+    question: "¿Cuánto tiempo tarda la aprobación?"
+    answer: "El tiempo varía según el producto y el volumen de solicitudes; puede ser desde unas horas hasta varios días hábiles. Recibirás una notificación con el resultado."
+    tags: ["tiempo","aprobacion"]
+
+  - id: 009
+    category: "Seguridad"
+    question: "¿Cómo protegen mi información?"
+    answer: "Usamos encriptación en tránsito y en reposo, controles de acceso y políticas de seguridad para proteger tus datos. No pedimos contraseñas ni OTP por chat."
+    tags: ["seguridad","datos"]
+
+  - id: 010
+    category: "Regulatorio"
+    question: "¿Están regulados por las autoridades en México?"
+    answer: "Sí, la app opera con las autorizaciones y registros necesarios para ofrecer productos financieros en México y cumple con las normativas aplicables."
+    tags: ["regulación","México"]
+
+  - id: 011
+    category: "Operaciones sensibles"
+    question: "¿Puedo consultar mi saldo o movimientos por aquí?"
+    answer: "No puedo ayudar con saldos ni movimientos. Para consultas de saldo o información sensible, por favor ingresa a la app con tu cuenta o comunícate por los canales seguros que te proporcionamos."
+    tags: ["saldo","transacciones"]
+    refuse: true
+    refuse_message: "Lo siento, no puedo ayudar con saldos ni movimientos. Por favor accede a la app con tu usuario o comunícate con soporte desde el área segura."
+
+  - id: 012
+    category: "Contacto"
+    question: "¿Cómo contacto soporte?"
+    answer: "Puedes contactar soporte desde la sección 'Ayuda' en la app, por correo a soporte@tuapp.com o mediante el número de atención disponible en la app."
+    tags: ["soporte","contacto"]
+
+  - id: 013
+    category: "Ofertas"
+    question: "¿Ofrecen promociones o tarjetas con beneficios?"
+    answer: "Sí, regularmente tenemos promociones y tarjetas con programas de recompensas. Si te interesa, puedo darte información general o suscribirte a notificaciones de ofertas."
+    tags: ["ofertas","recompensas"]

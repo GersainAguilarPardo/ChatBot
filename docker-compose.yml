@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  chatbot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: poc-chatbot-financiero:latest
+    container_name: poc-chatbot-financiero
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./faq.yml:/app/faq.yml:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- --timeout=2 http://localhost:3000/health || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
